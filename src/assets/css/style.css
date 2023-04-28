@@ -36,7 +36,7 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("/src/images/books.png");
+    background-image: url("/src/assets/images/books.png");
     clip-path: circle(60% at left 300px);
     z-index: -1;
 }

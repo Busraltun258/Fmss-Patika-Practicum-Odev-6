@@ -3,7 +3,7 @@ import Card from "./Card";
 import axios from "axios";
 import {IoIosSearch} from "react-icons/io";
 // bu sayfada arama  islemini yaptigimiz input alani var burdan aldigimiz datalari bookData adiyla Card componentine gonderiyoruz.
-const Main=()=>{
+const Search=()=>{
     const [search,setSearch]=useState("");
     const [bookData,setData]=useState([]);
     const searchBook=(evt)=>{
@@ -43,4 +43,4 @@ const Main=()=>{
         </>
     )
 }
-export default Main;
+export default Search;

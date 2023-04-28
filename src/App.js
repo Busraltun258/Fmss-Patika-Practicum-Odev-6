@@ -1,10 +1,10 @@
 import React from 'react';
-import Main from './Components/Main';
-import './Components/style.css';
+import Search from './components/Search';
+import './assets/css/style.css';
 function App() {
   return (
       <>
-        <Main/>
+        <Search/>
       </>
   );
 }
